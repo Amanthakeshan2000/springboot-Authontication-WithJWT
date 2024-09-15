@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(242, 242, 242);
+  font-family: 'Poppins',sans-serif;
+}
+.App.a{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px; 
+    height: 100vh;
+    
+  }
+  
+  .container.c{
+    display: flex;
+    flex: 1;
+    max-width: 1630px;
+
+    margin-left: 13%;
+    width: auto; 
+    
+  }
+  
+  .main-content.m{
+    width: calc(100% - 275px);
+    position: absolute;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 260px; 
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+  .content.cc{
+    width: 100%;
+    padding: 20px;
+  }
+  
+  
